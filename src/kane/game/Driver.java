@@ -2,7 +2,11 @@ package kane.game;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Priority;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import kane.game.controls.Movement;
 import kane.game.controls.UserInput;
@@ -17,7 +21,7 @@ import java.util.Timer;
  * Last Edited: 3/17/19
  */
 public class Driver extends Application {
-    private static final int SNAKE_SPEED = 200;
+    private static final int SNAKE_SPEED = 150;
 
     /**
      * Launches a JavaFX application.
@@ -36,13 +40,20 @@ public class Driver extends Application {
         Stage window = primaryStage;
         window.setTitle("Snake");
 
+        VBox root = new VBox();
+        Label score = new Label("hello");
+
+
         //The layout that will be compared to an ImageView array.
-        GridPane root = new GridPane();
+        GridPane grid = new GridPane();
 
         //Initializing map for snake.
-        Map map = new Map(root, 21, 21);
+        Map map = new Map(grid, 21, 21);
 
-        UserInput userInput = new UserInput(map.getUser().getHead());
+        root.getChildren().addAll(score,grid);
+        root.setVgrow(grid, Priority.ALWAYS);
+
+        UserInput userInput = new UserInput(map, map.getUser().getHead());
 
         Scene scene = new Scene(root);
         scene.setOnKeyPressed(userInput);

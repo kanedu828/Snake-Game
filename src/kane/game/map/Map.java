@@ -3,6 +3,7 @@ package kane.game.map;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
+import kane.game.snake.Body;
 import kane.game.snake.Snake;
 
 import java.io.FileInputStream;
@@ -116,9 +117,16 @@ public class Map {
                 if(row==apple.getRow()&&col==apple.getCol()){
                     map[row][col].setImage(appleblock);
                 }
-                //Sets the head of the snake on the GridPane. Overrides the background block.
+                /*//Sets the head of the snake on the GridPane. Overrides the background block.
                 if(row==user.getHead().getRow()&&col==user.getHead().getCol()){
                     map[row][col].setImage(snakeblock);
+                }*/
+                Body temp = user.getHead();
+                for(int i = 0; i<user.size(); i++){
+                    if(temp.getRow()==row&&temp.getCol()==col){
+                        map[row][col].setImage(snakeblock);
+                    }
+                    temp = temp.getNext();
                 }
                 //Makes sure the dimensions of each index in GridPane is reasonable. 50x50 pixels
                 map[row][col].setFitHeight(50);
@@ -127,4 +135,5 @@ public class Map {
             }
         }
     }
+
 }
