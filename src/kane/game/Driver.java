@@ -21,7 +21,7 @@ import java.util.Timer;
  * Last Edited: 3/17/19
  */
 public class Driver extends Application {
-    private static final int SNAKE_SPEED = 150;
+    private static final int SNAKE_SPEED = 100;
 
     /**
      * Launches a JavaFX application.

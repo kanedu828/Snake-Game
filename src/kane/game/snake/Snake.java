@@ -1,10 +1,12 @@
 package kane.game.snake;
 
+import java.util.ArrayList;
+
 /**
  * This class represents the snake. Snake contains the head of the snake that the user controls.
  */
 public class Snake {
-    private Body head;
+    private ArrayList<Body> snake;
 
     /**
      * Initializes the snake with a head, which the starting index is at the center of the map.
@@ -12,41 +14,39 @@ public class Snake {
      * @param height
      */
     public Snake(int width, int height){
-        head = new Body(height/2, width/2);
+        snake = new ArrayList<>();
+        snake.add(new Body(height/2, width/2));
     }
 
     /**
-     * Returns the {@code head} of the snake.
-     * @return the {@code head} of the snake.
+     * Returns the first index of {@code snake}.
+     * @return the {@code head} of {@code snake}.
      */
     public Body getHead(){
-        return head;
+        return snake.get(0);
     }
 
+    /**
+     * Returns the {@code snake}
+     * @return the {@code snake}
+     */
+    public ArrayList<Body> getSnake(){
+        return snake;
+    }
     /**
      * Returns the size of the snake.
      * @return size of the snake.
      */
     public int size(){
-        int count = 0;
-        Body temp = head;
-        while(temp!=null){
-            temp = temp.getNext();
-            count++;
-        }
-        return count;
+        return snake.size();
     }
 
     /**
-     * Returns the tail of the snake. More formally, it returns the last node of {@code head}.
-     * @return The last node of {@code head}.
+     * Returns the tail of the snake.
+     * @return The last index of {@code snake}.
      */
     public Body getTail(){
-        Body temp = head;
-        for(int i = 1; i<size(); i++){
-            temp = temp.getNext();
-        }
-        return temp;
+        return snake.get(snake.size()-1);
     }
 
     /**
@@ -56,36 +56,45 @@ public class Snake {
         Body tail = getTail();
         //The bodies are added depending on which direction the tail is heading.
         if(tail.getDir()==Direction.UP){
-            tail.setNext(new Body(tail.getRow(), tail.getCol()-1));
-            tail.getNext().setDir(tail.getDir());
+            snake.add(new Body(tail.getRow(), tail.getCol()-1));
+            getTail().setDir(tail.getDir());
         }
         if(tail.getDir()==Direction.DOWN){
-            tail.setNext(new Body(tail.getRow(), tail.getCol()+1));
-            tail.getNext().setDir(tail.getDir());
+            snake.add(new Body(tail.getRow(), tail.getCol()+1));
+            getTail().setDir(tail.getDir());
         }
         if(tail.getDir()==Direction.RIGHT){
-            tail.setNext(new Body(tail.getRow()+1, tail.getCol()));
-            tail.getNext().setDir(tail.getDir());
+            snake.add(new Body(tail.getRow()+1, tail.getCol()));
+            getTail().setDir(tail.getDir());
         }
         if(tail.getDir()==Direction.LEFT){
-            tail.setNext(new Body(tail.getRow()-1, tail.getCol()));
-            tail.getNext().setDir(tail.getDir());
+            snake.add(new Body(tail.getRow()-1, tail.getCol()));
+            getTail().setDir(tail.getDir());
         }
     }
 
     /**
      * Returns whether or not the snake collided with itself.
      * @return True if it collided with itself, false otherwise.
+     *
      */
     public boolean isCollision(){
-        Body temp = head.getNext();
-        for(int i = 1; i<size(); i++){
-            if(head.getRow()==temp.getRow()&&head.getCol()==temp.getCol()){
+        for(Body b: snake){
+            if(getHead().getRow()==b.getRow()&&getHead().getCol()==b.getCol()&&b!=getHead()){
                 return true;
             }
-            temp = temp.getNext();
         }
         return false;
+    }
+
+    /**
+     * Moves the snake along.
+     */
+    public void passIndex(){
+        for(int i = size()-1; i>0; i--){
+            snake.get(i).setRow(snake.get(i-1).getRow());
+            snake.get(i).setCol(snake.get(i-1).getCol());
+        }
     }
 
 }

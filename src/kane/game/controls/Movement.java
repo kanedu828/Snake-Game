@@ -44,34 +44,28 @@ public class Movement extends TimerTask {
         }
         //Moves snake up.
         if(head.getDir()== Direction.UP){
+            map.getUser().passIndex();
             head.setCol(head.getCol()-1);
             map.updateMap();
         }
         //Moves snake down.
         if(head.getDir()== Direction.DOWN){
+            map.getUser().passIndex();
             head.setCol(head.getCol()+1);
             map.updateMap();
         }
         //Moves snake to the right.
         if(head.getDir()== Direction.RIGHT){
+            map.getUser().passIndex();
             head.setRow(head.getRow()+1);
             map.updateMap();
         }
         //Moves snake to the left
         if(head.getDir()== Direction.LEFT){
+            map.getUser().passIndex();
             head.setRow(head.getRow()-1);
             map.updateMap();
         }
-        Body temp = head;
-        //Adjusts each snake body so it directly follows the preceding body.
-        if(map.getUser().size()>1){
-            for(int i = 0; i<map.getUser().size(); i++){
-                temp.adjustNextIndex();
-                temp = temp.getNext();
-            }
-        }
-        //Updates the map after adjusting the index.
-        map.updateMap();
 
     }
 }

@@ -117,16 +117,10 @@ public class Map {
                 if(row==apple.getRow()&&col==apple.getCol()){
                     map[row][col].setImage(appleblock);
                 }
-                /*//Sets the head of the snake on the GridPane. Overrides the background block.
-                if(row==user.getHead().getRow()&&col==user.getHead().getCol()){
-                    map[row][col].setImage(snakeblock);
-                }*/
-                Body temp = user.getHead();
                 for(int i = 0; i<user.size(); i++){
-                    if(temp.getRow()==row&&temp.getCol()==col){
+                    if(user.getSnake().get(i).getRow()==row&&user.getSnake().get(i).getCol()==col){
                         map[row][col].setImage(snakeblock);
                     }
-                    temp = temp.getNext();
                 }
                 //Makes sure the dimensions of each index in GridPane is reasonable. 50x50 pixels
                 map[row][col].setFitHeight(50);

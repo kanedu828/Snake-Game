@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ac2d6a8-2dd0-4982-88cb-723428aa7b8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/kane/game/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/Driver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/kane/game/controls/Movement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/controls/Movement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/kane/game/controls/UserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/controls/UserInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/kane/game/map/Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/map/Apple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/kane/game/map/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/map/Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/kane/game/map/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/map/Map.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/kane/game/snake/Body.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/snake/Body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/kane/game/snake/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/snake/Direction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/kane/game/snake/Snake.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/kane/game/snake/Snake.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kane/game/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kane/game/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kane/game/controls/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kane/game/controls/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kane/game/controls/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kane/game/controls/UserInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kane/game/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kane/game/map/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kane/game/snake/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kane/game/snake/Body.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kane/game/snake/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/kane/game/snake/Snake.java" afterDir="false" />
@@ -32,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kane/game/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+            <state relative-caret-position="629">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -41,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kane/game/snake/Body.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1769">
-              <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+            <state relative-caret-position="464">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -50,17 +44,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kane/game/snake/Snake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="919">
-              <caret line="77" column="64" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
+            <state relative-caret-position="638">
+              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+              <folding>
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#1151#1152#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kane/game/map/Block.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1189">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -69,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/kane/game/snake/Direction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -78,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/kane/game/map/Apple.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="812">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -86,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kane/game/map/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3152">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="658">
+              <caret line="114" column="51" lean-forward="true" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kane/game/controls/UserInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/kane/game/controls/Movement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
-              <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+            <state relative-caret-position="1160">
+              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,11 +149,11 @@
         <option value="$PROJECT_DIR$/src/kane/game/map/Apple.java" />
         <option value="$PROJECT_DIR$/src/kane/game/SnakeIterator.java" />
         <option value="$PROJECT_DIR$/src/kane/game/Driver.java" />
-        <option value="$PROJECT_DIR$/src/kane/game/map/Map.java" />
-        <option value="$PROJECT_DIR$/src/kane/game/snake/Body.java" />
-        <option value="$PROJECT_DIR$/src/kane/game/snake/Snake.java" />
         <option value="$PROJECT_DIR$/src/kane/game/controls/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/kane/game/map/Map.java" />
         <option value="$PROJECT_DIR$/src/kane/game/controls/Movement.java" />
+        <option value="$PROJECT_DIR$/src/kane/game/snake/Snake.java" />
+        <option value="$PROJECT_DIR$/src/kane/game/snake/Body.java" />
       </list>
     </option>
   </component>
@@ -164,8 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,12 +211,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552876041634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552877186807" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -273,12 +277,17 @@
       <option name="presentableId" value="Default" />
       <updated>1552775954278</updated>
       <workItem from="1552775960647" duration="14441000" />
-      <workItem from="1552852001154" duration="19824000" />
+      <workItem from="1552852001154" duration="20073000" />
+      <workItem from="1552881176295" duration="72000" />
+      <workItem from="1552881375725" duration="2857000" />
+      <workItem from="1552963930818" duration="203000" />
+      <workItem from="1553016764771" duration="3299000" />
+      <workItem from="1553181474194" duration="4850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34265000" />
+    <option name="totallyTimeSpent" value="45795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="42" width="3840" height="2118" extended-state="6" />
@@ -289,10 +298,10 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25293177" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2675906" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.3295699" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
@@ -351,18 +360,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/whitesquare.jpg.url" />
-    <entry file="file://$PROJECT_DIR$/src/kane/game/SnakeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kane/game/SnakeIterator.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jfxrt.jar!/javafx/scene/Scene.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40844">
@@ -372,43 +370,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kane/game/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state relative-caret-position="629">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kane/game/snake/Body.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1769">
-          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
+        <state relative-caret-position="464">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kane/game/snake/Snake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="77" column="64" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
+        <state relative-caret-position="638">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding>
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kane/game/map/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kane/game/snake/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kane/game/map/Apple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="812">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kane/game/map/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3152">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="658">
+          <caret line="114" column="51" lean-forward="true" selection-start-line="114" selection-start-column="51" selection-end-line="114" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -417,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kane/game/controls/UserInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -427,18 +442,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kane/game/controls/Movement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="72" column="52" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
+        <state relative-caret-position="1160">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kane/game/map/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
